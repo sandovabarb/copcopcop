@@ -1,0 +1,157 @@
+
+h1 {
+
+font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Dongle', sans-serif;
+}
+
+.what-to-do {
+  color: black;
+  background-color: #F0E9D2;
+  padding: 7% 15% 15% 15% ;
+
+}
+
+.fas {
+  text-align: center;
+}
+
+
+.tips {
+  color: black;
+  background-color:  #678983;
+  padding: 7% 15% 15% 15% ;
+  ;
+}
+
+.tips h1,h2 {  position: relative;
+  left: 10%;
+}
+
+.what-to-do .right {
+  text-align: right;
+}
+
+#title {
+    background-color: #181D31;
+}
+
+#intro {color: black;
+background-color: #F0E9D2;
+
+}
+.navbar {
+
+  padding:  3% 15% 0;
+  color: #fff;
+  background-color: #181D31;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+  background-color: #181D31;
+}
+
+.ff {
+  color: gray;
+  padding: 20px 0 20px 0;
+  margin: 10px;
+}
+
+.what-to-do  h1, h2 {
+  position: relative;
+  left: 10%;
+}
+
+
+
+.what-to-do h1 image {
+vertical-align: middle;
+
+}
+
+.con-right {
+padding-right: 20%;
+
+}
+.title-image {
+  text-align: right;
+  width: 80%;
+  position: relative;  left: 20%;
+  border-radius: 10%;
+}
+
+.glyptotek {
+  float: right;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position:relative;
+  right: 20%;
+}
+
+a { text-decoration: none; color: black }
+a:hover {text-decoration: none; color:#F0E9D2}
+
+.fas:hover{
+  color:#F0E9D2;
+}
+
+
+.jaegers {
+  float: left;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position:relative;
+
+  }
+
+
+.introduction {
+    padding: 7% 15%;
+
+
+}
+
+.intro {
+  padding-top: 25%;
+}
+
+.nav-item {
+  padding: 0 10px 0 10px;
+}
+
+@media (max-width: 991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);}
+    .glyptotek {
+      position: static;
+      transform: rotate(0);}
+      .jaegers {
+        position: static;
+        transform: rotate(0);}
+  #title, #intro{
+    text-align: center;
+  }
+
+
+}
+
+.form-inline {
+  text-align: center;
+}
+
+.map-con {
+  background-color: #678983;
+  padding: 7% 10%;
+  text-align: center;
+}
